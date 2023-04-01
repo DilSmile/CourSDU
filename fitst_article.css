@@ -1,0 +1,126 @@
+     body{
+            margin:0 230px 0 230px;
+        }
+        .div_dilnaz{
+            display:inline-flex;
+            justify-content: space-between;
+            margin: 5px 
+        }
+        .p_dilnaz{
+            width: 251px;
+            font-size: 20px;
+        }
+        .h_dilnaz{
+            font-size: 26px;
+        }
+        .img_all{
+            width:200px;
+            height: 200px;
+        }
+        .second_text{
+            font-size:150%; 
+            margin: 10px 0px 10px 50px;
+        }
+            .fourth_text{
+            font-size:190%;  
+            margin-left:150px;
+             margin-right:50px;
+             margin-top:150px;
+            }
+        .article_div{
+            
+            padding:25px;
+        }.h1_couse{
+    animation:h1_couseText 1.2s infinite;
+    font-size: 59px;
+}
+@keyframes h1_couseText{
+    0%{     color: #FFEB3B;    }
+    49%{    color: #FF5722; }
+    60%{    color: #429600; }
+    99%{    color: #e91e1e;  }
+    100%{   color: #FFF;    }
+}
+#panel, #flip {
+      padding: 5px;
+      text-align: center;
+      color: #4646d6;
+      font-size:30px;
+    }
+    
+    #panel {
+      padding: 50px;
+      display: none;
+      font-size:24px;
+    }
+
+    @media screen and (max-width:450px) {
+
+        body{
+            margin:0 5px 0 2px;
+        }
+        .div_dilnaz{
+            display:grid;
+        
+            font-size: 200px;
+        
+            
+        }
+        #merey_art{font-size: 150%;}
+        .p_dilnaz{
+            width: 400px;
+            font-size: 20px;
+        }
+        .second_text{
+            margin-top: 450px;
+            margin-left:-550px;}
+
+
+            .fourth_text{
+                margin-top: 750px;
+                margin-left: -250px;
+            }
+
+            .first_text{font-size: 75%;}
+        .h_dilnaz{
+            font-size: 26px;
+        }
+
+        .main_text_article {
+            display: grid;
+
+        }
+        .img_all{
+            width:400px;
+            height: 200px;
+        }
+        .article_div{
+            
+            padding:25px;
+            margin: 0 2px 0 2x;
+        }.h1_couse{
+    animation:h1_couseText 1.2s infinite;
+    font-size: 59px;
+}
+@keyframes h1_couseText{
+    0%{     color: #FFEB3B;    }
+    49%{    color: #FF5722; }
+    60%{    color: #429600; }
+    99%{    color: #e91e1e;  }
+    100%{   color: #FFF;    }
+}
+#panel, #flip {
+      padding: 5px;
+    
+      color: #4646d6;
+      font-size:30px;
+      width: 400px;
+    }
+    
+    #panel {
+      padding: 50px;
+      display: none;
+      font-size:24px;
+    }
+
+    }
