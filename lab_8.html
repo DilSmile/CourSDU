@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IF=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <title>Lab-Work8</title>
+      <link rel="stylesheet" href="lab_8.css">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+     <header> Sign up</header>
+     
+     <form action="https://youtu.be/dQw4w9WgXcQ">
+      
+      <div class="field Uname">
+        <div class="input-field ">
+          <input type="text" id="name" name="name" placeholder="Enter your Username">
+        </div> 
+      </div>
+
+
+        <div class="field email-field">
+          <div class="input-field ">
+            <input type="email" placeholder="Enter your email" class="email" />
+          </div> 
+          <span class="error email error">
+            <i class="bx bx-error-circle error-icon"></i>
+          <p class="error-text">Please enter a valid email</p>
+        </span>
+        </div>
+
+        <div class="field create-password">
+            <div class="input-field ">
+              <input 
+              type="password"
+               placeholder="Create password" 
+               class="password"
+               />
+              <i class="bx bx-hide show-hide"></i>
+            </div> 
+            <!-- <span class="error password error">
+              <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter at least 8 character with number,symbol,small and capital letter.</p>
+          </span> -->
+          </div>
+
+          <div class="field confirm-password">
+            <div class="input-field ">
+              <input 
+              type="password" 
+              placeholder="Confirm password" 
+              class="cPassword"
+              />
+              <i class="bx bx-hide show-hide"></i>
+            </div> 
+            <span class="error cPassword error">
+              <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match</p>
+          </span>
+          </div>
+
+          <div class="field age">
+            <div class="input-field ">
+              <input type="number" id="age" name="age" min="18" max="99"  placeholder="Enter your age">
+            </div> 
+          </div>
+
+          <div class="field gender">
+              <label>Please choise your gender:</label>
+              <br>
+              <label>Male</label>
+              <input type="radio" name="title" value="male">
+      
+              <label>Female</label>
+              <input type="radio" name="title" value="female">
+            </div> 
+      
+            <div>
+              <input type="checkbox" id="subscribe" name="subscribe">
+              <label for="subscribe">subscibe:</label>
+            </div>
+          <div class="input-field button">
+            <input type="submit" value="Submit Now">
+          </div>
+     </form>
+    </div>
+<script  src="lab_8.js"></script>
+</body>
+</html>
